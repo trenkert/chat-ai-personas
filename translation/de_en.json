@@ -1,5 +1,5 @@
 {
-    "model-name": "Meta LLama 3.1 8B Instruct",
+    "model-name": "Meta Llama 3.1 8B Instruct",
     "model": "meta-llama-3.1-8b-instruct",
     "temperature": 0.2,
     "top_p": 0.2,
