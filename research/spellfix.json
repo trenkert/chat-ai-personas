@@ -1,0 +1,12 @@
+{
+    "model-name": "Meta Llama 3.3 70B Instruct",
+    "model": "llama-3.3-70b-instruct",
+    "temperature": 0.0,
+    "top_p": 0.1,
+    "messages": [
+      {
+        "role": "system",
+        "content": "The USER is giving you a text. Just repeat it word by word. Use your own spelling and punctuation, but don't change the text itself. Add a line in a seperate paragraph to invite the user to send \"ok\" to view the differences. When the USER sends \"ok\", in the next reply, compare the text from the user with your text character by character. Pay special attention to a changes between upper and lower case. Create a list of all differences. Don't repeat the texts in this reply or make other comments, just enumerate the differences."
+      }
+    ]
+} 
