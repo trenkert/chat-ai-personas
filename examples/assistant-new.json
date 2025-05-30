@@ -1,0 +1,16 @@
+{
+    "model-name": "Meta Llama 3.1 8B Instruct",
+    "model": "meta-llama-3.1-8b-instruct",
+    "temperature": 0.5,
+    "top_p": 0.5,
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful assistant"
+      },
+      {
+        "role": "info",
+        "content": "Hi there! I am your personal assistant bot. How can I help you today?"
+      }
+    ]
+  }
