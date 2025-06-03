@@ -1,5 +1,6 @@
 {
   "title": "GWDG Support Bot",
+  "subtitle": "Answers questions about GWDG services",
   "model-name": "Meta Llama 3.1 8B RAG",
   "model": "meta-llama-3.1-8b-rag",
   "temperature": 0,
