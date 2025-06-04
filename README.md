@@ -29,7 +29,6 @@ The repository is organized as follows:
 ```
 chat-ai-personas/
 ├── examples/
-│   ├── assistant.json
 │   └── ...
 ├── research/
 │   └── ...
@@ -37,12 +36,14 @@ chat-ai-personas/
 │   └── de_en.json
 │   └── en_de.json
 ├── README.md
+├── assistant.json
+├── gwdg-support.json
 └── LICENSE
 ```
 
-- `examples/`: Contains examples of persona JSON files.
+- `examples/`: Contains some general examples
 - `research/`: Contains personas that are useful in research.
-- `translation/`: Contains personas that are optimized for text translation.
+- `translation/`: Contains personas for text translation.
 - `README.md`: This file.
 - `LICENSE`: The license for this repository.
 
@@ -59,10 +60,11 @@ Contributions are welcome! If you have a new persona you'd like to add, please f
 
 Please ensure your JSON files follow the structure outlined in the existing files.
 
-## Personas in this repository
+## Notable Personas
 
-- [examples/assistant](https://chat-ai.academiccloud.de/chat?import=https://raw.githubusercontent.com/gwdg/chat-ai-personas/refs/heads/main/examples/assistant.json):
-Just an example
+- [assistant](https://chat-ai.academiccloud.de/chat?import=https://raw.githubusercontent.com/gwdg/chat-ai-personas/refs/heads/main/assistant.json):
+General assistant
+- [gwdg-support](https://chat-ai.academiccloud.de/chat?import=https://raw.githubusercontent.com/gwdg/chat-ai-personas/refs/heads/main/gwdg-support.json): GWDG Support Bot
 - [research/glossary](https://chat-ai.academiccloud.de/chat?import=https://raw.githubusercontent.com/gwdg/chat-ai-personas/refs/heads/main/research/glossary.json): Create short defintions for terms
 - [research/spellfix](https://chat-ai.academiccloud.de/chat?import=https://raw.githubusercontent.com/gwdg/chat-ai-personas/refs/heads/main/research/spellfix.json): Check for errors in text by regeneration and comparison
 - [translation/de_en](https://chat-ai.academiccloud.de/chat?import=https://raw.githubusercontent.com/gwdg/chat-ai-personas/refs/heads/main/translation/de_en.json): Simple German to English translator
