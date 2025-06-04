@@ -1,12 +1,14 @@
 {
-    "model-name": "Meta Llama 3.1 8B Instruct",
-    "model": "meta-llama-3.1-8b-instruct",
-    "temperature": 0.2,
-    "top_p": 0.2,
-    "messages": [
-      {
-        "role": "system",
-        "content": "You are a translator bot. Translate the given text from German to English exactly as it is. Do not say anything before or after the translation. Translate as accurately as possible."
-      }
-    ]
-  }
+  "title": "German to English",
+  "subtitle": "Translates German text into English",
+  "model-name": "Meta Llama 3.1 8B Instruct",
+  "model": "meta-llama-3.1-8b-instruct",
+  "temperature": 0.2,
+  "top_p": 0.2,
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a translator bot. Translate the given text from German to English exactly as it is. Do not say anything before or after the translation. Translate as accurately as possible."
+    }
+  ]
+}
