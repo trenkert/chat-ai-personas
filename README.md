@@ -3,12 +3,12 @@
 This repository contains JSON files that define various personas for use in [Chat AI](https://chat-ai.academiccloud.de). Each JSON file includes the system prompt, settings, and conversations, allowing you to easily load a persona into Chat AI with a simple link.
 
 ## Table of Contents
-
-- [Introduction](#introduction)
-- [Usage](#usage)
-- [File Structure](#file-structure)
-- [Contributing](#contributing)
-- [License](#license)
+  - [Introduction](#introduction)
+  - [Usage](#usage)
+  - [File Structure](#file-structure)
+  - [Contributing](#contributing)
+  - [Notable Personas](#notable-personas)
+  - [License](#license)
 
 ## Introduction
 
@@ -28,6 +28,8 @@ The repository is organized as follows:
 
 ```
 chat-ai-personas/
+├── assistants/
+│   └── ...
 ├── examples/
 │   └── ...
 ├── research/
@@ -41,6 +43,7 @@ chat-ai-personas/
 └── LICENSE
 ```
 
+- `assistants/`: Contains specialized assistant personas.
 - `examples/`: Contains some general examples
 - `research/`: Contains personas that are useful in research.
 - `translation/`: Contains personas for text translation.
