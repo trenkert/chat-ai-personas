@@ -50,6 +50,33 @@ chat-ai-personas/
 - `README.md`: This file.
 - `LICENSE`: The license for this repository.
 
+## JSON Structure of Personas
+
+Persona files have the following structure:
+```js
+{
+  "title": "Title",
+  "subtitle": "Subtitle",
+  "model-name": "AI model name, must be supported by Chat AI",
+  "model": "AI model, must be supported by Chat AI",
+  "temperature": 0.2, // should be 0 for arcanas
+  "top_p": 0.2, // should be 0 - 0.05 for arcanas
+  "messages": [
+    {
+      "role": "system",
+      "content": "This is a system prompt."
+    },
+    { // optional
+      "role": "info",
+      "content": "This message is only visible to the user."
+    }
+  ],
+  "arcana": { // optional, only for RAG
+    "id" : "username/arcana-name"
+  }
+}
+```
+
 ## Contributing
 
 Contributions are welcome! If you have a new persona you'd like to add, please follow these steps:
