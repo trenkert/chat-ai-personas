@@ -32,6 +32,8 @@ chat-ai-personas/
 │   └── ...
 ├── research/
 │   └── ...
+├── arcanas/
+│   └── ...
 ├── translation/
 │   └── de_en.json
 │   └── en_de.json
@@ -43,6 +45,7 @@ chat-ai-personas/
 
 - `examples/`: Contains some general examples
 - `research/`: Contains personas that are useful in research.
+- `arcanas/`: Contains personas with knowledge bases (RAG).
 - `translation/`: Contains personas for text translation.
 - `README.md`: This file.
 - `LICENSE`: The license for this repository.
