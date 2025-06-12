@@ -1,4 +1,4 @@
- # Chat AI Personas Repository
+# Chat AI Personas Repository
 
 This repository contains JSON files that define various personas for use in [Chat AI](https://chat-ai.academiccloud.de). Each JSON file includes the system prompt, settings, and conversations, allowing you to easily load a persona into Chat AI with a simple link.
 
@@ -28,8 +28,6 @@ The repository is organized as follows:
 
 ```
 chat-ai-personas/
-├── assistants/
-│   └── ...
 ├── examples/
 │   └── ...
 ├── research/
@@ -37,16 +35,18 @@ chat-ai-personas/
 ├── translation/
 │   └── de_en.json
 │   └── en_de.json
+├── writing/
+│   └── ...
 ├── README.md
 ├── assistant.json
 ├── gwdg-support.json
 └── LICENSE
 ```
 
-- `assistants/`: Contains specialized assistant personas.
 - `examples/`: Contains some general examples
 - `research/`: Contains personas that are useful in research.
 - `translation/`: Contains personas for text translation.
+- `writing/`: Contains personas for writing assistance.
 - `README.md`: This file.
 - `LICENSE`: The license for this repository.
 
