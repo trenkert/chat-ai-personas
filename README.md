@@ -32,6 +32,8 @@ chat-ai-personas/
 │   └── ...
 ├── research/
 │   └── ...
+├── arcanas/
+│   └── ...
 ├── translation/
 │   └── de_en.json
 │   └── en_de.json
@@ -45,10 +47,38 @@ chat-ai-personas/
 
 - `examples/`: Contains some general examples
 - `research/`: Contains personas that are useful in research.
+- `arcanas/`: Contains personas with knowledge bases (RAG).
 - `translation/`: Contains personas for text translation.
 - `writing/`: Contains personas for writing assistance.
 - `README.md`: This file.
 - `LICENSE`: The license for this repository.
+
+## JSON Structure of Personas
+
+Persona files have the following structure:
+```js
+{
+  "title": "Title",
+  "subtitle": "Subtitle",
+  "model-name": "AI model name, must be supported by Chat AI",
+  "model": "AI model, must be supported by Chat AI",
+  "temperature": 0.2, // should be 0 for arcanas
+  "top_p": 0.2, // should be 0 - 0.05 for arcanas
+  "messages": [
+    {
+      "role": "system",
+      "content": "This is a system prompt."
+    },
+    { // optional
+      "role": "info",
+      "content": "This message is only visible to the user."
+    }
+  ],
+  "arcana": { // optional, only for RAG
+    "id" : "username/arcana-name"
+  }
+}
+```
 
 ## Contributing
 
