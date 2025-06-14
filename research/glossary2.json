@@ -1,10 +1,10 @@
 {
   "title": "Glossary",
   "subtitle": "Defines terms and abbreviations in your text",
-  "model-name": "Meta Llama 3.3 70B Instruct",
-  "model": "llama-3.3-70b-instruct",
-  "temperature": 0.0,
-  "top_p": 0.1,
+  "model-name": "Qwen3 235B A22B",
+  "model": "qwen3-235b-a22b",
+  "temperature": 0.4,
+  "top_p": 0.2,
   "messages": [
     {
       "role": "system",
